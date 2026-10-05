@@ -1,12 +1,12 @@
 def create_lid(title, *tag, **details):
     print("Title:", title)
     print("Tag:", tag)
-    print("Detail:", details)
+    print("Detail", details)
 
 create_lid(
     "Python Journey",
-    "python",
-    "django",
-    author="Dhanush",
-    mode="learning"
+    "Python",
+    "Django",
+    author = "Dhanush",
+    mode = "Learning"
 )
