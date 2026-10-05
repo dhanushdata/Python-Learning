@@ -3,6 +3,6 @@ def attack(first, second, third):
     print(second)
     print(third)
 
-moves = ("Getsuga", "Bankai", "Final Strike")
+moves = ("getsuga", "bankai", "final strike")
 
 attack(*moves)
