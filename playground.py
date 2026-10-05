@@ -1,20 +1,11 @@
-def get_price():
-    return 100
+def calculate(*numbers):
+    total = 0
 
-def add_tax(price):
-    result = price
-    return result + 18
+    for number in numbers:
+        total = total + number
 
-def check_price(price):
+    return total
 
-    if price >= 110:
-        return "Teur"
-
-    else:
-        return "Billig"
-
-price = get_price()
-price = add_tax(price)
-result = check_price(price)
+result = calculate(10, 20, 30)
 
 print(result)
