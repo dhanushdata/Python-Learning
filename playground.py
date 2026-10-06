@@ -1,9 +1,8 @@
-def power():
-    return 200
+def warrior():
 
-def double(function):
-    return function() * 2
+    def attack():
+        return "Bankai"
 
-result = double(power)
+    print(attack())
 
-print(result)
+warrior()
