@@ -1,4 +1,4 @@
-def number():
+def create_warrior():
     power = 100
 
     def train():
@@ -11,4 +11,4 @@ def number():
 
     print(power)
 
-number()
+create_warrior()
