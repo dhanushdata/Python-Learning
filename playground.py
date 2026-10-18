@@ -1,23 +1,20 @@
-def warrior(name, power):
-    
-    def train(amount):
-        nonlocal power
-        power = power + amount
+def get_price():
+    return 100
 
-    def show_power():
-        print(name, ":", power)
+def add_tax(price):
+    result = price
+    return result + 18
 
-    return train, show_power
+def check_price(price):
 
-rukia_train, rukia_show = warrior("Rukia", 80)
+    if price >= 110:
+        return "Expansive"
 
-rukia_show()
+    else:
+        return "Affordable"
 
-rukia_train(10)
-rukia_show()
+price = get_price()
+price = add_tax(price)
+result = check_price(price)
 
-rukia_train(20)
-rukia_show()
-
-rukia_train(-20)
-rukia_show()
+print(result)
