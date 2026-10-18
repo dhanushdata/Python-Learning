@@ -19,5 +19,5 @@ rukia_show()
 rukia_train(20)
 rukia_show()
 
-rukia_train(-10)
+rukia_train(-20)
 rukia_show()
