@@ -1,3 +1,16 @@
 .vscode/
 __pycache__/
 *.pyc
+# Virtual environments
+.venv/
+venv/
+
+# Local databases
+db.sqlite3
+
+# Environment variables and secrets
+.env
+
+# Django-generated files
+staticfiles/
+media/
