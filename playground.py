@@ -1,20 +1,7 @@
-def get_price():
-    return 100
+user = ("Dhanush", 16, "Germany")
 
-def add_tax(price):
-    result = price
-    return result + 18
+name, age, country = user
 
-def check_price(price):
-
-    if price >= 110:
-        return "Expansive"
-
-    else:
-        return "Affordable"
-
-price = get_price()
-price = add_tax(price)
-result = check_price(price)
-
-print(result)
+print(name)
+print(age)
+print(country)
