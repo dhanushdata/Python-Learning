@@ -14,3 +14,4 @@ db.sqlite3
 # Django-generated files
 staticfiles/
 media/
+*.pyo
