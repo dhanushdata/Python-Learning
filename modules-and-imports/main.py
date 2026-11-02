@@ -1,6 +1,7 @@
 import calculator
+from calculator import multiply as mul
 
-product = calculator.multiply(6,7)
+product = mul(6,7)
 total = calculator.add(5,4)
 
 print(product)
