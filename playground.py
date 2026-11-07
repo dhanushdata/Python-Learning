@@ -1,7 +1,7 @@
-user = ("Dhanush", 16, "Germany")
+print("A")
 
-name, age, country = user
+def greet():
+    print("B")
 
-print(name)
-print(age)
-print(country)
+if __name__ == "__main__":
+    print("C")

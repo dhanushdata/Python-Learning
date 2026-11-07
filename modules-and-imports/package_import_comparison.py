@@ -10,5 +10,4 @@ print("Package imported again")
 
 import sys
 
-print("Is math_operations cached?",
-      "math_operations" in sys.modules)
+print("Is math_operations cached?", "math_operations" in sys.modules)
