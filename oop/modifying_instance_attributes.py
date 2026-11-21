@@ -7,7 +7,7 @@ class Warrior:
 ichigo = Warrior("Ichigo", "Getsuga")
 rukia = Warrior("Rukia", "Ice")
 
-ichigo.power = ("Final Getsuga")
+ichigo.power = "Final Getsuga"
 
 print(ichigo.power)
 print(rukia.power)

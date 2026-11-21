@@ -1,7 +1,8 @@
-print("A")
+class Warrior:
+    def __init__(self, name):
+        self.name = name
 
-def greet():
-    print("B")
 
-if __name__ == "__main__":
-    print("C")
+ichigo = Warrior("Ichigo")
+rukia = Warrior("Rukia")
+kenpachi = Warrior("Kenpachi")
